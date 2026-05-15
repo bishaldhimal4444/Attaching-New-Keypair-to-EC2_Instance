@@ -19,6 +19,7 @@ Note: Above command generates a public key from the private key file (new-keypai
 
 ![as](assets/ssh-keygen.jpg)
 
+
 ## Step-3: Copy the public key to the EC2 instance
 - Connect to your instance using **EC2 Instance Connect**
   
