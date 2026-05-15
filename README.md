@@ -35,5 +35,11 @@ mkdir -p ~/.ssh
 
 ## step-4: Test the SSH
 From your local machine
-- Set file permissions so only the owner can read the private key: ```chmod 400 new-keypair.pem```
-- Connect to a remote Ubuntu server using SSH with the private key (new-key.pem) for authentication, replacing YOUR_PUBLIC_IP with the server’s actual public IP address: ```ssh -i new-key.pem ubuntu@YOUR_PUBLIC_IP```
+- Set file permissions so only the owner can read the private key:
+  ```
+  chmod 400 new-keypair.pem
+  ```
+- Connect to a remote Ubuntu server using SSH with the private key (new-key.pem) for authentication, replacing YOUR_PUBLIC_IP with the server’s actual public IP address:
+  ```
+  ssh -i new-key.pem ubuntu@YOUR_PUBLIC_IP
+  ```
