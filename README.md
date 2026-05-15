@@ -22,7 +22,6 @@ Note: Above command generates a public key from the private key file (new-keypai
 ## Step-3: Copy the public key to the EC2 instance
 - Connect to your instance using EC2 Instance Connect
   
-![asd]()
 
 - Create the ~/.ssh directory if it doesn't already exist
 ```
@@ -31,7 +30,8 @@ mkdir -p ~/.ssh
 - cd ~/.ssh
 - ls
 - Paste the contents/value of new-keypair.pub in **authorized_keys**
-- 
+
+  ![asd](assets/authorized-keys.jpg)
 
 ## step-4: Test the SSH
 From your local machine
