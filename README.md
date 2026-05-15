@@ -44,3 +44,4 @@ From your local machine
   ```
   ssh -i new-key.pem ubuntu@YOUR_PUBLIC_IP
   ```
+![ad](assets/ssh-login.jpg)
