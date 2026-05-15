@@ -7,7 +7,7 @@ In AWS console:
 - Goto **key Pairs**
 - Click **Create key pair**
 - Download the ```.pem``` file
-![](keypair-screenshot.jpg)
+![asd](keypair-screenshot.jpg)
 
 ## Step-2: Extract the Public key locally
 Run on your local machine
